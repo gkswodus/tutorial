@@ -8,9 +8,10 @@ public class ThrowExam {
 	public static void main(String[] args) {
 		ThrowExam ts = new ThrowExam();
 		try {
-		arrayMethod();
-		} catch(ArrayIndexOutOfBoundsException ae) {
-			System.out.println("배열 예외 발생");
+			arrayMethod();
+		} catch(ArrayIndexOutOfBoundsException e){
+			
 		}
+		System.out.println("내가 갑이다.");
 	}
 }
